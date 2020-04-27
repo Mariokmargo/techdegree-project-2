@@ -1,46 +1,56 @@
 
 /* Base Elements */
 
+*{
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+img {
+max-width: 100%;
+}
+
 ul {
+
     list-style-type: none;
-    padding: 0;
     margin: 0;
-    width: 200px;
-    
-   
+    padding: 0%;
+    background-color: white;
+    border: 1px solid #555;
+
 }
 
 li a {
-
-    text-decoration: none;
-    
     display: block;
-    width: 60px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
     padding: 8px 16px;
+    border-bottom: 1px solid #555;
+    line-height: 2em;
 }
+
+li a:hover{
+     background-color: turquoise;
+     color: wheat;
+}   
+
+
 
 
 /* Navigation */
 
 
 
+
 /* Layout Containers */
 .container {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.main-header {
-
-
+    background-color:wheat;
+    text-transform: capitalize lowercase;
 }
 
 
-.main-footer {
 
 
-}
 
 /* Media Queries */
