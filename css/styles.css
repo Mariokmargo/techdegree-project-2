@@ -8,10 +8,18 @@
 
 body{
     background-color: wheat;
+    
+}
+
+p {
+
+    font-size: 1.4em;
 }
 
 img {
 max-width: 100%;
+margin-bottom: 1em;
+margin-top: 1em;
 
 }
 
@@ -21,39 +29,46 @@ max-width: 100%;
 }
 .profile {
 
-    max-width: 60%;
+    max-width: 70%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 2em auto;
     background-color: wheat;
 }
 
-.header {
-    background-color:wheat;
+ul li{
+    text-align: left;
+    font-size: 1.4em;
+    list-style-position: inside;
 }
 
-.contact {
+
+#contact {
     background-color: whitesmoke;
+    padding: 2em;
+    margin-bottom: 1em;
+    
 }
 
 span{
-    display: inline-block;
+    
     float: left;
 }
 
 .back {
-    display: inline;
+    
     float: right;
     text-decoration: none;
     color: black;
+    padding-bottom: 2em;
 }
 
 /* Navigation */
 
-.nav-bar {
+.nav-bar ul {
 
     margin: 2em 0 4em 0;
     padding: 0;
+    
 
 }
 
@@ -61,14 +76,11 @@ span{
 .nav-bar li {
 
     list-style-type: none;
-    margin: 6px;
+    margin: 8px;
     padding: 0%;
     background-color: white;
     
   
-   
-
-
 }
 
 .nav-bar li a {
@@ -76,8 +88,8 @@ span{
     color: black;
     font-weight: 600;
     text-decoration: none;
-    padding: 8px 16px;
-     line-height: 2em;
+    padding: 8px auto 16px auto;
+    line-height: 2em;
 }
 
 li a:hover{
@@ -87,13 +99,31 @@ li a:hover{
 
 
 /* Layout Containers */
-.container {
+
+
+.container,
+.header  {
     background-color:wheat;
-    text-transform: capitalize lowercase;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.main-footer {
+
+    margin: auto;
+    padding-top: 15px;
 }
 
 
 
 
-
 /* Media Queries */
+
+@media (min-width: 769px) {
+
+    .nav-bar li a{
+        float: none;
+        width: 100%;
+    }
+}
