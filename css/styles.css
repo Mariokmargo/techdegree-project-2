@@ -115,15 +115,48 @@ li a:hover{
     padding-top: 15px;
 }
 
-
+/* clearfix */
 
 
 /* Media Queries */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
-    .nav-bar li a{
-        float: none;
-        width: 100%;
+    .nav-bar li {
+         display: inline-block;
+         background-color: inherit;
+         margin-left: 1em;
     }
+
+ 
+    .profile-pic{
+        float: right;
+        /* display: inline-block; */
+        max-width:35%;
+        margin-left: 10%;
+        margin-right: 6%;
+    }
+
+
+    
+    .intro {
+
+        float: left;
+        display: inline;
+        max-width: 65%;
+        border: solid 1px red;
+    }
+
+    .container{
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    } */
+    
 }
