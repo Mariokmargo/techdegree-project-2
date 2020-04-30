@@ -8,8 +8,8 @@
 
 body{
     background-color: wheat;
-    
-}
+  
+    }
 
 p {
 
@@ -27,14 +27,25 @@ margin-top: 1em;
     text-align: center;    
     
 }
+
 .profile {
 
-    max-width: 70%;
+    padding: 0 1em 0 1em;
     text-align: center;
-    margin: 0 auto 2em auto;
+    font-size: small;
+    margin: 16px 0;
     background-color: wheat;
 }
 
+.profile-pic{
+
+  
+    width: fit-content;
+}
+
+.intro {
+
+}
 ul li{
     text-align: left;
     font-size: 1.4em;
@@ -122,29 +133,40 @@ li a:hover{
 
 @media (min-width: 768px) {
 
+
+
     .nav-bar li {
          display: inline-block;
          background-color: inherit;
          margin-left: 1em;
     }
 
+    .profile{
+       display: flex;
+       flex-direction: row-reverse;
+       margin: 0 21.6px;
+      
+       
+    }
+
  
     .profile-pic{
-        float: right;
-        /* display: inline-block; */
-        max-width:35%;
-        margin-left: 10%;
-        margin-right: 6%;
-    }
+       
+        max-width: 30%;
+        margin-left: 2%;
+        margin-right: 0;
+     }
 
 
     
     .intro {
+        
+        text-align: left ;
+        max-width: 70%;
+        margin-left: 0;
+        font-size: 2em;
 
-        float: left;
-        display: inline;
-        max-width: 65%;
-        border: solid 1px red;
+     
     }
 
     .container{
