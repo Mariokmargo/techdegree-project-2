@@ -192,13 +192,40 @@ li a:hover{
         margin: auto;
         max-width: 60%;
         display: inline-block;
+        padding-bottom: 0;
+        
       }
     
       .back {
           display: none;
       }
 
-      .nav-footer {
-        display: inherit;
+     
+      .main-footer{
+        padding-top: 20px;
+        padding-bottom: 80px;
+      
+    }
 
+    hr,
+    .main-footer {
+       margin-left: 2em;
+       margin-right: 2em;
+       font-size: smaller;
+    }
+
+      .nav-footer {
+        display: flex;
+        float: right;
+        list-style-type: none;
+        padding-top: 0;
+      }
+      .nav-footer a{
+          text-decoration: none;
+          color: black;
+          padding-left: 1em;
+          
+         
+      }
+      
 }
