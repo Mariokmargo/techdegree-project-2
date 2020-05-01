@@ -229,3 +229,29 @@ li a:hover{
       }
       
 }
+
+@media (min-width: 1024px) {
+
+   .header{
+       display:flex;
+       justify-content: space-between;
+       margin: 0 21.6px;
+   }
+
+   .intro  {
+       font-size: 4em;
+       max-width: 70;
+   }
+
+   .profile-pic{
+       max-width: 30%;
+       border-radius: 50%;
+   }
+
+
+.projects {
+    float: left;
+    width: 30%;
+    /* margin-left: 7px; */
+}
+}
