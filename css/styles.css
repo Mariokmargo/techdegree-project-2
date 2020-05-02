@@ -183,17 +183,7 @@ li a:hover{
         margin-right: 5%;
         }
 
-    /* .projects:nth-child(even) {
-        margin-right: 2%;
-
-    } */
-
-    /* .languages{
-        margin: auto;
-        width: 50%;
-        border-radius: 50%;
-  
-    } */
+   
     
     #contact{
         margin: auto;
@@ -243,24 +233,27 @@ li a:hover{
        display:flex;
        justify-content: space-between;
        margin: 0 21.6px;
+       padding-left: 5em;
+       padding-right: 5em;
+
    }
    
 
-   .container,
-   .profile{
-    
-        width: auto;
-
+   .profile {
+       margin: auto;
    }
 
    .intro  {
        font-size: 4em;
-       max-width: 70%;
+       max-width: 75%;
+       margin-right: 2em;
+       margin-left: 2em;
    }
 
    .profile-pic{
-       max-width: 30%;
+       max-width: 20%;
        border-radius: 50%;
+       margin-right: 15em;
    }
 
    .projects{
@@ -270,24 +263,18 @@ li a:hover{
        
    }
    
+   #contact {
 
-   /* .projects:nth-child(even) {
-        margin-right: initial;
-   } */
-/* 
-   .projects img{
-    width: 405.86px;  
-    height:228.29px;
-   } */
+    margin-top: 5em;
+   }
 
-   /* .lists{
-       display: inline-block;
-   } */
+  p{
+      font-size:1.70em;
+  }
 
-    /* .projects {
-        display: inline;
-        max-width: 30%;
-} */
+  .main-footer {
+      font-size: larger;
+  }
 
     
 }
