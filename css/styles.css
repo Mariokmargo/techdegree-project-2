@@ -116,7 +116,6 @@ li a:hover{
 /* Layout Containers */
 
 
-.container,
 .header  {
     background-color:wheat;
     padding-left: 1em;
@@ -175,12 +174,7 @@ li a:hover{
      
     }
 
-    .container{
-
-        width: 90%;
-        margin: 0 auto;
-       
-    }
+ 
 
     .projects {
         float: left;
@@ -252,7 +246,7 @@ li a:hover{
    }
 
    .intro  {
-       font-size: 4em;
+       font-size: 3em;
        max-width: 75%;
        margin-right: 2em;
        margin-left: 2em;
@@ -273,6 +267,8 @@ li a:hover{
        
    }
    
+ 
+
    #contact {
 
     margin-top: 5em;
@@ -286,6 +282,8 @@ li a:hover{
   .main-footer {
       font-size: larger;
   }
-
+  #skills {
+      
+  }
     
 }
