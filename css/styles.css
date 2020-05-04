@@ -61,17 +61,19 @@ ul li{
     
 }
 
-span{
-    
-    float: left;
+
+.author{
+    float:left;
 }
+
 
 .back {
     
     float: right;
     text-decoration: none;
     color: black;
-    padding-bottom: 2em;
+  
+    /* padding-bottom: 2em; */
 }
 
 /* Navigation */
@@ -123,10 +125,11 @@ li a:hover{
 
 }
 
-.main-footer {
+.author,
+.back,
+.nav-footer{
 
-    margin: auto;
-    padding-top: 15px;
+    margin-top: auto;
 }
 
 /* clearfix */
@@ -173,13 +176,20 @@ li a:hover{
 
      
     }
+    .portfolio,
+    .skills{
 
- 
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      
+     
+    }
+    
 
     .projects {
-        float: left;
-        width: 45%;
-        margin-right: 5%;
+        
+      max-width: 30%;
         }
 
    
@@ -197,14 +207,13 @@ li a:hover{
       }
 
      
-      .main-footer{
-        padding-top: 20px;
-        padding-bottom: 80px;
-      
+      footer{
+       display: flex;
+       justify-content: space-between;
     }
 
     hr,
-    .main-footer {
+    footer {
        margin-left: 2em;
        margin-right: 2em;
        font-size: smaller;
@@ -212,9 +221,8 @@ li a:hover{
 
       .nav-footer {
         display: flex;
-        float: right;
         list-style-type: none;
-        padding-top: 0;
+        
       }
       .nav-footer a{
           text-decoration: none;
@@ -222,9 +230,8 @@ li a:hover{
           padding-left: 1em;
           font-size: smaller;
           padding-top: 0;
-          
-         
-      }
+          }
+
       
 }
 
@@ -282,8 +289,6 @@ li a:hover{
   .main-footer {
       font-size: larger;
   }
-  #skills {
-      
-  }
+  
     
 }
